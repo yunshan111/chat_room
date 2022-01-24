@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Chat Room</title>
+</head>
+<main>
+    <button type = "button" class = "leave_button" >
+        <a href="index.html" id = "registration_link" class = "form__link">leave</a>
+    </button>
+    <div class="chat-form-container">
+        <form id="chat-form">
+            <div class="chat-messages" id = "message_container"></div>
+        </form>
+    </div>
+        <form>
+            <input id="message" class="message" placeholder="Message">
+            <button type = "submit" class = "leave_button">
+                Send
+            </button>
+        </form>
+
+</main>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<body>
+
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="javascripts/main.js"></script>
+</body>
+</html>

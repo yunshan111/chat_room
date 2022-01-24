@@ -1,0 +1,72 @@
+body {
+  padding: 50px;
+  font: 22px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:url(../background.png) no-repeat 5px 5px;
+
+  background-size: cover;
+}
+
+
+main {
+  background-color: #F0FFFF;
+  height: 500px;
+  width: 300px;
+  margin: 20px auto;
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 8px;
+  opacity: 0.8;
+  color: #ffffff;
+  font : 15px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.form__input{
+  margin-bottom: 1rem;
+}
+
+.message{
+  color: #667aff;
+}
+
+.chat-messages {
+  height:  400px;
+  padding: 30px;
+  max-height: 500px;
+
+}
+
+.message_content{
+  background-color: #A9A9A9;
+
+}
+
+.message_content .text{
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  opacity: 0.7;
+
+}
+
+.message_content .time{
+  font-size: 10px;
+  font-weight: bold;
+  color: #696969;
+  opacity: 0.7;
+}
+
+.message_content .name{
+  font-size: 15px;
+  font-weight: bold;
+  color: #000080;
+  opacity: 0.7;
+}
+
+.leave_button{
+  color : #808080;
+}

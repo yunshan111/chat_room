@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <title>Express</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+<div class = "container">
+    <form class = "form" id = "login" action = "room.html">
+      <p1 class = "form_title">Login</p1>
+      <label for="input_username">Username</label>
+      <div class = "input_messages">
+        <input type = "username" name = "username" class = "form__input" autofocus placeholder = "Username" id = "input_username" required>
+      </div>
+      <div class = "input_messages">
+        <input type = "password" class = "form__input" autofocus placeholder = "Password" id = "input_pw" required>
+      </div>
+      <button class = "form__button" type = "submit" id = "login_button" onclick="login()">Login</button>
+      <p class = "form_text">
+        <a href="create.html" id = "registration_link" class = "form__link">Create your account</a>
+      </p>
+    </form>
+</div>
+</body>
+<script src="javascripts/login.js"></script>
+</html>
